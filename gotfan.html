@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Game Of Thrones</title>
+	<link  rel= "stylesheet" href="got.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="got.js">
+	</script>
+</head>
+<body>
+
+
+	<nav>
+		<img src="got.jpg"  alt="GOT Logo">
+		<button  id="drop" onclick="disp()">MENU v</button>
+		<div id="show">
+		<a href="gothome.html">Home</a>
+		<a href="gotchar.html">Characters</a>
+		<a href="gotawards.html">Awards</a>
+	    <a href="gotmusic.html">Music</a>
+		<a href="gotphotos.html">Photos</a>
+		<a href="gotfan.html" id="last">Fan Account</a>
+	</div>
+	</nav>
+	<section id="sec6">
+		<h1>FAN ACCOUNT</h1>
+		<p class="log"><b>Sign up</b></p>
+		<form class="form1">
+			<label for="name"><b>NAME:</b></label>
+			<input type="text" id="name" name="name" required>
+			<br/>
+			<label for="email"><b>EMAIL:</b></label>
+			<input type="email" id="email" name="email" required>
+			<br/>
+			<label for="favc"><b>FAVOURITE CHARACTER:</b></label>
+			<input type="text" id="favc" name="favc" required>
+			<br/>
+			<label for="create"><b>CREATE PASSWORD:</b></label>
+			<input type="password" id="create" name="pass" placeholder="New Password" required>
+			<br/>
+			<input id="sub1" type="submit" value="Sign up">
+			<br/>
+		</form>
+		<p class="log"><b>Log In</b></p>
+		<form class="form1">
+			<label for="name1"><b>NAME:</b></label>
+			<input type="text" id="name1" name="name1" required>
+			<br/>
+
+			<label for="login"><b>PASSWORD:</b></label>
+			<input type="password" id="login" name="pass1" required>
+			<br/>
+			<input id="sub2" type="submit" value="Log In">
+			<br/>
+		</form>
+	</section>
+	<footer>
+    <p class="copyright">Copyright &copy;2020 by Aswath.All rights reserved</p>
+
+</footer>
+</body>
+</html>
